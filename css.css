@@ -1,0 +1,104 @@
+.navbar{
+    background-color: blue; 
+    border:none;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 10px;
+    padding-top: 1px;
+}
+#shop{
+    color:lavender;
+    font-size: 18px;
+}
+.navbar-nav>li>a:hover {
+    color: lavender !important;
+    background-color: transparent;
+}
+.navbar-nav>li>a {
+    color: lavender !important;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-toggle {
+        border-color: lavender;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: lavender;
+}
+.page{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left:7.5%;
+    padding-right:7.5%; 
+}
+.navbar-brand {
+    float: left;
+    height: 40px;
+    padding: 18px 15px;
+    font-size: 22px;
+    line-height: 14px;
+    color: lavender !important;
+}
+.sm-navbar-brand {
+            float: left;
+            height: 40px;
+            padding: 15px 15px;
+            font-size: 24px;
+            line-height: 20px;
+    color: lavender !important;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color:blue !important;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    background-color:blue !important;
+}
+.description{
+    height:200px;
+    width:600px;
+}
+.bar{
+    background-color: black !important;
+}
+.bar a:hover{
+    background-color:#555 !important;
+}
+.product_nb{
+    font-size: 14px !important;
+}
+.align-right{
+    text-align: right;
+}
+.last_paragraph a:link{
+    font-size:20px;
+    color:white;
+}
+.notitfy{
+    color:red;
+    font-weight:bold;
+}
+@media (max-width: 767px){
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #ffffff;
+    }
+}
+.space-1{
+    margin-bottom:.5em;
+}
+.space-2{
+    margin-bottom:1em;
+}
+.space-3{
+    margin-bottom:1.5em;
+}
+.space-4{
+    margin-bottom:2em;
+}
+.space-5{
+    margin-bottom:2.5em;
+}
+.space-6{
+    margin-bottom:3em;
+}

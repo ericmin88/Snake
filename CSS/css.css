@@ -1,0 +1,49 @@
+h4{
+    color:#b6b7bd;
+  }
+  p{
+    font-size: 16px;
+  }
+    .snake_rules{
+      text-align:center;
+      color:#b6b7bd;
+    }
+    body {
+      background-color: black;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    #debug{
+      color:white;
+    }
+    #easy{
+      background-color: blue;
+      color:white;
+    }
+    #smallScore{
+      color:white;
+    }
+    button{
+      background-color: #a0d9fb;
+      color:black;
+
+    }
+    canvas {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    #score{
+      text-align: center;
+      font-family:arial;
+      color:white;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .game_buttons{
+      text-align: center;
+      margin-bottom:3px;
+      font-family:arial;
+    }
